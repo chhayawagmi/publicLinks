@@ -1,6 +1,6 @@
 export const functions = {
   hello: () => {
-    console.log("Hello!");
+    console.log("How are you?");
   },
   bye: () => {
     console.log("Bye!");
