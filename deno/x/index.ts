@@ -1,4 +1,4 @@
-export const subfunc = {
+export function subfunc() {
   hello: () => {
     console.log("Hello!");
   },
