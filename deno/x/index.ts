@@ -1,4 +1,4 @@
-export function subfunc() {
+const subfunc = {
   hello: () => {
     console.log("Hello!");
   },
@@ -12,3 +12,5 @@ export function subfunc() {
     console.log("City1");
   },
 };
+
+export default subfunc;
