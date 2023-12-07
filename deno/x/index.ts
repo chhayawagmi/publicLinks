@@ -1,15 +1,14 @@
-export function hello() {
-  console.log("Hello!"); 
-}
-
-export function bye() {
-  console.log("Bye!"); 
-}
-
-export function address() {
-  console.log("Address"); 
-}
-
-export function name() {
-  console.log("User1"); 
-}
+export const subfunc = {
+  hello: () => {
+    console.log("Hello!");
+  },
+  bye: () => {
+    console.log("Bye!");
+  },
+  name: () => {
+    console.log("User1");
+  },
+  city: () => {
+    console.log("City1");
+  },
+};
